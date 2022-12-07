@@ -4,10 +4,10 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from pickle import load
 
-model = load_model('../Stock_Prediction/BIST100/cnn_lstm_twitter.h5')
+model = load_model('./cnn_lstm_twitter.h5')
 
-in_scaler = load(open('../Stock_Prediction/BIST100/in_scaler.pkl', 'rb'))
-out_scaler = load(open('../Stock_Prediction/BIST100/out_scaler.pkl', 'rb'))
+in_scaler = load(open('./in_scaler.pkl', 'rb'))
+out_scaler = load(open('./out_scaler.pkl', 'rb'))
 
 st.title("Stock Price Prediction")
 
