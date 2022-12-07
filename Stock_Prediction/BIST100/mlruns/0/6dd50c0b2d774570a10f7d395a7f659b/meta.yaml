@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/assas/Desktop/Okul/2022-G%C3%BCz/YAP%20470/Proje/Stock_Prediction/mlruns/0/6dd50c0b2d774570a10f7d395a7f659b/artifacts
+end_time: 1670438298152
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6dd50c0b2d774570a10f7d395a7f659b
+run_name: capable-auk-759
+run_uuid: 6dd50c0b2d774570a10f7d395a7f659b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1670438263070
+status: 3
+tags: []
+user_id: assas
