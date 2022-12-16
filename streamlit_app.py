@@ -52,11 +52,11 @@ with st.form(key='input_form'):
     submit = st.form_submit_button(label='Calculate')
 
 if submit:
-    test = np.array([[i0, i1, i2],
-                     [i3, i4, i5],
-                     [i6, i7, i8],
+    test = np.array([[i12, i13, i14],
                      [i9, i10, i11],
-                     [i12, i13, i14]])
+                     [i6, i7, i8],
+                     [i3, i4, i5],
+                     [i0, i1, i2]])
     test = in_scaler.transform(test).reshape(1, test.shape[0], test.shape[1])
     test_res = model.predict(test)
     result = out_scaler.inverse_transform(test_res.reshape(1, 1))[0, 0]
